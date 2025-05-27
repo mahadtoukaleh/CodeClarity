@@ -1091,7 +1091,7 @@ export default function CodeClarityLanding() {
           <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
             <div className="bg-white p-6 rounded-2xl shadow-sm border border-blue-100">
               <h3 className="font-semibold mb-2">Email Us</h3>
-              <p className="text-blue-600">hello@codeclarityacademy.com</p>
+              <p className="text-blue-600">codeclarityteam@gmail.com</p>
             </div>
             <div className="bg-white p-6 rounded-2xl shadow-sm border border-blue-100">
               <h3 className="font-semibold mb-2">Follow Us</h3>
