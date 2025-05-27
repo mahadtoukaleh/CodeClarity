@@ -356,7 +356,7 @@ export default function CodeClarityLanding() {
           </div>
           <div className="mt-6 animate-fade-in">
             <Button
-              onClick={() => setIsBootcampModalOpen(true)}
+              onClick={handleScrollToBootcamp}
               size="lg"
               className="w-full sm:w-auto bg-gradient-to-r from-amber-400 to-amber-500 hover:from-amber-500 hover:to-amber-600 text-white rounded-full px-8 py-4 text-lg shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 border-2 border-amber-300"
             >
