@@ -428,15 +428,59 @@ export default function CodeClarityLanding() {
                       <span className="text-amber-800 font-semibold">Until June 15th</span>
                     </div>
                     <div className="grid grid-cols-2 gap-4 mb-4">
-                      <div className="bg-white rounded-xl p-4 text-center">
-                        <p className="text-sm text-gray-600 mb-1">Kids (9-13)</p>
-                        <p className="text-2xl font-bold text-amber-600">$90 CAD</p>
-                        <p className="text-sm text-gray-500">Saturdays at 11AM</p>
+                      <div className="bg-white rounded-xl p-4">
+                        <div className="mb-3">
+                          <p className="text-sm text-gray-600 mb-1">Young Developers (14+)</p>
+                          <div className="flex items-baseline gap-2">
+                            <p className="text-2xl font-bold text-amber-600">$199 CAD</p>
+                            <p className="text-sm text-gray-500 line-through">$240</p>
+                          </div>
+                          <p className="text-sm text-gray-500">$25 per hour session</p>
+                        </div>
+                        <div className="space-y-2 text-sm">
+                          <p className="text-amber-600 font-medium">Save $40 when you register before June 25th!</p>
+                          <ul className="space-y-1.5">
+                            <li className="flex items-center gap-2">
+                              <CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0" />
+                              <span>Turn curiosity into real coding skills — in just 8 weeks.</span>
+                            </li>
+                            <li className="flex items-center gap-2">
+                              <CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0" />
+                              <span>Final project + certificate of completion</span>
+                            </li>
+                            <li className="flex items-center gap-2">
+                              <CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0" />
+                              <span>Session recordings included</span>
+                            </li>
+                          </ul>
+                        </div>
                       </div>
-                      <div className="bg-white rounded-xl p-4 text-center">
-                        <p className="text-sm text-gray-600 mb-1">Young Developers (14+)</p>
-                        <p className="text-2xl font-bold text-amber-600">$130 CAD</p>
-                        <p className="text-sm text-gray-500">Saturdays at 3PM</p>
+                      <div className="bg-white rounded-xl p-4">
+                        <div className="mb-3">
+                          <p className="text-sm text-gray-600 mb-1">Kids Coding (10-13)</p>
+                          <div className="flex items-baseline gap-2">
+                            <p className="text-2xl font-bold text-amber-600">$119 CAD</p>
+                            <p className="text-sm text-gray-500 line-through">$140</p>
+                          </div>
+                          <p className="text-sm text-gray-500">$15 per hour of instruction</p>
+                        </div>
+                        <div className="space-y-2 text-sm">
+                          <p className="text-amber-600 font-medium">Save $60 when you register before June 25th!</p>
+                          <ul className="space-y-1.5">
+                            <li className="flex items-center gap-2">
+                              <CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0" />
+                              <span>Beginner-friendly curriculum</span>
+                            </li>
+                            <li className="flex items-center gap-2">
+                              <CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0" />
+                              <span>Creative coding projects</span>
+                            </li>
+                            <li className="flex items-center gap-2">
+                              <CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0" />
+                              <span>End-of-program digital badge</span>
+                            </li>
+                          </ul>
+                        </div>
                       </div>
                     </div>
                   </div>
@@ -456,24 +500,32 @@ export default function CodeClarityLanding() {
                       <Code className="h-12 w-12 text-blue-600" />
                     </div>
                     <h3 className="text-2xl font-semibold text-gray-900">8 Weeks of Coding Fun</h3>
-                    <ul className="space-y-4 text-left">
-                      <li className="flex items-center text-gray-600">
-                        <CheckCircle className="h-6 w-6 text-green-500 mr-3 flex-shrink-0" />
-                        <span className="text-lg">Live interactive sessions</span>
-                      </li>
-                      <li className="flex items-center text-gray-600">
-                        <CheckCircle className="h-6 w-6 text-green-500 mr-3 flex-shrink-0" />
-                        <span className="text-lg">Session recordings included</span>
-                      </li>
-                      <li className="flex items-center text-gray-600">
-                        <CheckCircle className="h-6 w-6 text-green-500 mr-3 flex-shrink-0" />
-                        <span className="text-lg">Small group learning</span>
-                      </li>
-                      <li className="flex items-center text-gray-600">
-                        <CheckCircle className="h-6 w-6 text-green-500 mr-3 flex-shrink-0" />
-                        <span className="text-lg">Fun projects & challenges</span>
-                      </li>
-                    </ul>
+                    <div className="grid grid-cols-2 gap-4">
+                      <div className="bg-white rounded-xl p-4 shadow-sm border border-blue-100 hover:shadow-md transition-shadow">
+                        <div className="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-3">
+                          <Users className="h-8 w-8 text-blue-600" />
+                        </div>
+                        <p className="text-sm font-medium text-gray-600">Live Sessions</p>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 shadow-sm border border-blue-100 hover:shadow-md transition-shadow">
+                        <div className="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-3">
+                          <BookOpen className="h-8 w-8 text-blue-600" />
+                        </div>
+                        <p className="text-sm font-medium text-gray-600">Recordings</p>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 shadow-sm border border-blue-100 hover:shadow-md transition-shadow">
+                        <div className="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-3">
+                          <Users className="h-8 w-8 text-blue-600" />
+                        </div>
+                        <p className="text-sm font-medium text-gray-600">Small Groups</p>
+                      </div>
+                      <div className="bg-white rounded-xl p-4 shadow-sm border border-blue-100 hover:shadow-md transition-shadow">
+                        <div className="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-3">
+                          <Zap className="h-8 w-8 text-blue-600" />
+                        </div>
+                        <p className="text-sm font-medium text-gray-600">Fun Projects</p>
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -858,12 +910,12 @@ export default function CodeClarityLanding() {
 
       {/* Booking Form */}
       <section id="booking-form" className="py-20 bg-white">
-        <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
+        <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="text-center mb-12">
             <h2 className="text-4xl font-bold text-gray-900 mb-4">Ready to Get Started?</h2>
             <p className="text-xl text-gray-600">Book your free 15-minute consultation call</p>
           </div>
-          <Card className="border-blue-100 max-w-2xl mx-auto">
+          <Card className="border-blue-100">
             <CardHeader>
               <CardTitle className="text-center text-2xl">Book Your Free Call</CardTitle>
               <CardDescription className="text-center">
@@ -872,7 +924,7 @@ export default function CodeClarityLanding() {
             </CardHeader>
             <CardContent>
               <form onSubmit={handleSubmit(onSubmit)} className="space-y-6">
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                   <div>
                     <Input
                       {...register("firstName")}
@@ -895,22 +947,21 @@ export default function CodeClarityLanding() {
                       <p className="mt-1 text-sm text-red-500">{errors.lastName.message}</p>
                     )}
                   </div>
-                </div>
-                
-                <div>
-                  <Input
-                    {...register("email")}
-                    type="email"
-                    placeholder="Email"
-                    className={errors.email ? "border-red-500" : ""}
-                    disabled={isSubmitting}
-                  />
-                  {errors.email && (
-                    <p className="mt-1 text-sm text-red-500">{errors.email.message}</p>
-                  )}
+                  <div>
+                    <Input
+                      {...register("email")}
+                      type="email"
+                      placeholder="Email"
+                      className={errors.email ? "border-red-500" : ""}
+                      disabled={isSubmitting}
+                    />
+                    {errors.email && (
+                      <p className="mt-1 text-sm text-red-500">{errors.email.message}</p>
+                    )}
+                  </div>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <Controller
                       control={control}
@@ -966,7 +1017,7 @@ export default function CodeClarityLanding() {
                   </div>
                 </div>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-6">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div>
                     <Controller
                       control={control}
@@ -1000,7 +1051,6 @@ export default function CodeClarityLanding() {
                                 setSelectedDate(date)
                               }}
                               disabled={(date) => {
-                                // Disable past dates
                                 return date < new Date(new Date().setHours(0, 0, 0, 0))
                               }}
                               initialFocus
@@ -1047,7 +1097,7 @@ export default function CodeClarityLanding() {
                   <Textarea
                     {...register("message")}
                     placeholder="Tell us about your goals and what you'd like to learn..."
-                    className={`min-h-[120px] ${errors.message ? "border-red-500" : ""}`}
+                    className={`min-h-[100px] ${errors.message ? "border-red-500" : ""}`}
                     disabled={isSubmitting}
                   />
                   {errors.message && (
@@ -1055,28 +1105,36 @@ export default function CodeClarityLanding() {
                   )}
                 </div>
 
-                <div className="text-sm text-gray-500">
-                  <p className="mb-2">Available hours:</p>
-                  <ul className="list-disc list-inside">
-                    <li>Weekdays (Mon-Fri): 3:00 PM - 9:00 PM</li>
-                    <li>Weekends (Sat-Sun): 7:00 AM - 6:00 PM</li>
-                  </ul>
+                <div className="text-sm text-gray-500 bg-blue-50 p-4 rounded-lg">
+                  <p className="font-medium mb-2">Available hours:</p>
+                  <div className="grid grid-cols-2 gap-4">
+                    <div>
+                      <p className="font-medium">Weekdays (Mon-Fri)</p>
+                      <p>3:00 PM - 9:00 PM</p>
+                    </div>
+                    <div>
+                      <p className="font-medium">Weekends (Sat-Sun)</p>
+                      <p>7:00 AM - 6:00 PM</p>
+                    </div>
+                  </div>
                 </div>
 
-                <Button
-                  type="submit"
-                  className="w-full bg-blue-600 hover:bg-blue-700 text-white rounded-full py-6 text-lg"
-                  disabled={isSubmitting}
-                >
-                  {isSubmitting ? (
-                    <>
-                      <Loader2 className="mr-2 h-5 w-5 animate-spin" />
-                      Submitting...
-                    </>
-                  ) : (
-                    "Book Your Free Consultation"
-                  )}
-                </Button>
+                <div className="pt-4">
+                  <Button
+                    type="submit"
+                    className="w-full bg-blue-600 hover:bg-blue-700 text-white rounded-full py-6 text-lg"
+                    disabled={isSubmitting}
+                  >
+                    {isSubmitting ? (
+                      <>
+                        <Loader2 className="mr-2 h-5 w-5 animate-spin" />
+                        Submitting...
+                      </>
+                    ) : (
+                      "Book Your Free Consultation"
+                    )}
+                  </Button>
+                </div>
               </form>
             </CardContent>
           </Card>
@@ -1088,7 +1146,7 @@ export default function CodeClarityLanding() {
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-4xl font-bold text-gray-900 mb-4">Have Questions?</h2>
           <p className="text-xl text-gray-600 mb-8">We're here to help you succeed. Reach out anytime!</p>
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <div className="bg-white p-6 rounded-2xl shadow-sm border border-blue-100">
               <h3 className="font-semibold mb-2">Email Us</h3>
               <p className="text-blue-600">codeclarityteam@gmail.com</p>
@@ -1096,6 +1154,20 @@ export default function CodeClarityLanding() {
             <div className="bg-white p-6 rounded-2xl shadow-sm border border-blue-100">
               <h3 className="font-semibold mb-2">Follow Us</h3>
               <p className="text-blue-600">@codeclarityacademy</p>
+            </div>
+            <div className="bg-white p-6 rounded-2xl shadow-sm border border-blue-100">
+              <h3 className="font-semibold mb-2">Payment Methods</h3>
+              <div className="space-y-2">
+                <div>
+                  <p className="text-blue-600 font-medium">E-Transfer</p>
+                  <p className="text-sm text-gray-600">codeclarityteam@gmail.com</p>
+                </div>
+                <div>
+                  <p className="text-blue-600 font-medium">PayPal</p>
+                  <p className="text-sm text-gray-600">Available upon request</p>
+                </div>
+                <p className="text-sm text-gray-500 mt-2">Payment due before each session</p>
+              </div>
             </div>
           </div>
         </div>
@@ -1240,8 +1312,31 @@ export default function CodeClarityLanding() {
                 )}
               </div>
             </div>
-
             <div className="pt-4">
+              <div className="space-y-1 text-sm text-gray-600">
+                <div className="flex items-center gap-2 mb-1">
+                  <p className="font-medium text-gray-900">Payment Information</p>
+                  <Badge variant="outline" className="bg-blue-50 text-blue-700 border-blue-200">Required</Badge>
+                </div>
+                <div className="bg-blue-50/50 rounded-lg p-4 border border-blue-100">
+                  <div className="grid grid-cols-2 gap-4">
+                    <div className="flex items-center gap-2">
+                      <CheckCircle className="h-4 w-4 text-blue-600 flex-shrink-0" />
+                      <div>
+                        <p className="text-gray-600">E-Transfer to:</p>
+                        <p className="font-medium text-blue-700">codeclarityteam@gmail.com</p>
+                      </div>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <CheckCircle className="h-4 w-4 text-blue-600 flex-shrink-0" />
+                      <div>
+                        <p className="text-gray-600">Important:</p>
+                        <p className="font-medium text-blue-700">Include student's name in </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
               <Button
                 type="submit"
                 className="w-full bg-blue-600 hover:bg-blue-700 text-white rounded-full py-6 text-lg"
