@@ -465,7 +465,7 @@ export default function CodeClarityLanding() {
                           <p className="text-sm text-gray-500">$15 per hour of instruction</p>
                         </div>
                         <div className="space-y-2 text-sm">
-                          <p className="text-amber-600 font-medium">Save $60 when you register before June 25th!</p>
+                          <p className="text-amber-600 font-medium">Save $20 when you register before June 25th!</p>
                           <ul className="space-y-1.5">
                             <li className="flex items-center gap-2">
                               <CheckCircle className="h-4 w-4 text-green-500 flex-shrink-0" />
