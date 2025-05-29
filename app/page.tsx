@@ -436,7 +436,7 @@ export default function CodeClarityLanding() {
                             <p className="text-2xl font-bold text-amber-600">$199 CAD</p>
                             <p className="text-sm text-gray-500 line-through">$240</p>
                           </div>
-                          <p className="text-sm text-gray-500">$25 per hour session</p>
+                          <p className="text-sm text-gray-500">$25/Session</p>
                         </div>
                         <div className="space-y-2 text-sm">
                           <p className="text-amber-600 font-medium">Save $40 when you register before June 25th!</p>
@@ -463,7 +463,7 @@ export default function CodeClarityLanding() {
                             <p className="text-2xl font-bold text-amber-600">$119 CAD</p>
                             <p className="text-sm text-gray-500 line-through">$140</p>
                           </div>
-                          <p className="text-sm text-gray-500">$15 per hour of instruction</p>
+                          <p className="text-sm text-gray-500">$15/Session</p>
                         </div>
                         <div className="space-y-2 text-sm">
                           <p className="text-amber-600 font-medium">Save $20 when you register before June 25th!</p>
