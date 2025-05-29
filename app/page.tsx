@@ -1332,7 +1332,7 @@ export default function CodeClarityLanding() {
                       <CheckCircle className="h-4 w-4 text-blue-600 flex-shrink-0" />
                       <div>
                         <p className="text-gray-600">Important:</p>
-                        <p className="font-medium text-blue-700">Include student's name in </p>
+                        <p className="font-medium text-blue-700">Include student's name in details.</p>
                       </div>
                     </div>
                   </div>
