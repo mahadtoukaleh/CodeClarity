@@ -1004,9 +1004,9 @@ export default function CodeClarityLanding() {
                             <SelectValue placeholder="Select Plan" />
                           </SelectTrigger>
                           <SelectContent>
-                            <SelectItem value="starter">Starter Plan ($120/month)</SelectItem>
-                            <SelectItem value="focused">Focused Plan ($220/month)</SelectItem>
-                            <SelectItem value="quarterly">Quarterly Plan ($330/3-months)</SelectItem>
+                            <SelectItem value="starter">Starter Plan - $120/month (4 sessions)</SelectItem>
+                            <SelectItem value="focused">Focused Plan - $220/month (8 sessions)</SelectItem>
+                            <SelectItem value="quarterly">Quarterly Plan - $330/3-months (12 sessions)</SelectItem>
                             <SelectItem value="not-sure">Not Sure - Need Consultation</SelectItem>
                           </SelectContent>
                         </Select>
@@ -1158,14 +1158,15 @@ export default function CodeClarityLanding() {
             </div>
             <div className="bg-white p-6 rounded-2xl shadow-sm border border-blue-100">
               <h3 className="font-semibold mb-2">Payment Methods</h3>
-              <div className="space-y-2">
+              <div className="space-y-4">
                 <div>
                   <p className="text-blue-600 font-medium">E-Transfer</p>
                   <p className="text-sm text-gray-600">codeclarityteam@gmail.com</p>
                 </div>
                 <div>
                   <p className="text-blue-600 font-medium">PayPal</p>
-                  <p className="text-sm text-gray-600">Available upon request</p>
+                  <p className="text-sm text-gray-600">codeclarityteam@gmail.com</p>
+                  <p className="text-xs text-gray-500 mt-1">Send as Friends & Family to avoid fees</p>
                 </div>
                 <p className="text-sm text-gray-500 mt-2">Payment due before each session</p>
               </div>
@@ -1259,8 +1260,8 @@ export default function CodeClarityLanding() {
                       <SelectValue placeholder="Select age group" />
                     </SelectTrigger>
                     <SelectContent>
-                      <SelectItem value="kids">Kids (9-13) - Saturdays at 11AM</SelectItem>
-                      <SelectItem value="teens">Junior Developers (14+) - Saturdays at 3PM</SelectItem>
+                      <SelectItem value="kids">Kids (9-13) - Saturdays at 11AM - $119 CAD</SelectItem>
+                      <SelectItem value="teens">Junior Developers (14+) - Saturdays at 3PM - $199 CAD</SelectItem>
                     </SelectContent>
                   </Select>
                 )}
